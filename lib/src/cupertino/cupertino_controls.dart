@@ -197,8 +197,8 @@ class _CupertinoControlsState extends State<CupertinoControls>
             borderRadius: BorderRadius.circular(10.0),
             child: BackdropFilter(
               filter: ui.ImageFilter.blur(
-                sigmaX: 10.0,
-                sigmaY: 10.0,
+                // sigmaX: 10.0,
+                // sigmaY: 10.0,
               ),
               child: Container(
                 height: barHeight,
